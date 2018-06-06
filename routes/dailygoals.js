@@ -20,13 +20,13 @@ router.get('/:id', (request, response, next) => {
 })
 // Create
 router.post('/', (request, response, next) => {
-    Dailies.create(request.body.dailygoal).then(dailygoal => {
+    Dailies.create(request.body).then(dailygoal => {
         response.status(201).json({ dailygoal })
     }).catch(next)
 })
 // Update
 router.put('/:id', (request, response, next) => {
-    Dailies.update(request.params.id, request.body.dailygoal).then(dailygoal => {
+    Dailies.update(request.params.id, request.body).then(dailygoal => {
         response.status(201).json({ dailygoal })
     }).catch(next)
 })
