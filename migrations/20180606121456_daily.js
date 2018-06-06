@@ -6,6 +6,7 @@ exports.up = function (knex, Promise) {
         table.string('due')
         table.string('done')
         table.string('comment')
+        table.text('image')
     })
 }
 

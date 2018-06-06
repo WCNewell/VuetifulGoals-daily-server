@@ -6,7 +6,9 @@ exports.seed = function (knex, Promise) {
           goal: 'Finish tower back-end',
           due: '11/04/18',
           done: 'No',
-          comment: 'Getting there!'
+          comment: 'Getting there!',
+          image: ''
+
         },
         {
           id: 2,
@@ -14,7 +16,8 @@ exports.seed = function (knex, Promise) {
           goal: 'Finish tower front-end',
           due: '11/04/18',
           done: 'No',
-          comment: 'Got started!'
+          comment: 'Got started!',
+          image: ''
         }
       ])
   })
