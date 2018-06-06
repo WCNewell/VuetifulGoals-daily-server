@@ -5,7 +5,7 @@ const Dailies = require('../models/dailies')
 
 // List
 router.get('/', (request, response, next) => {
-    Dalies.list().then(dailygoals => {
+    Dailies.list().then(dailygoals => {
         response.status(200).json({ dailygoals })
     }).catch(next)
 })
