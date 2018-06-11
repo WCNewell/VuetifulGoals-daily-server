@@ -16,6 +16,8 @@ The front-end aka client side of this application was built using Vue.js the Vue
 
 *Ez-fetch is a library that provides the developer with easy connectivity to an API designed by renowed CJ Reynolds. Search for Coding Garden by CJ on YouTube.
 
+*The goal entry form has entry requirements with warnings to the user, and insufficient submission is disallowed.
+
 *Two minimal Cypress tests are included
 
 This application was designed to demonstrate Create, Read, Update and Delete (CRUD) connectivity to an API which I designed using Express, Knex and PostgreSQL, then deployed to Heroku.
