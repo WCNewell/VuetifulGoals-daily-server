@@ -3,7 +3,7 @@
 Set goals and insert inspiring images to help with creative visualization!
 
 Client:
->https://vuetiful-goals.firebaseapp.com/#/
+>https://vuetiful-goals.firebaseapp.com/#/goals
 
 API:
 >https://fierce-springs-96129.herokuapp.com/dailygoals
